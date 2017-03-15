@@ -1,0 +1,43 @@
+nav li {
+  list-style: none;
+  text-align: right;
+  /*position: relative;*/
+}
+header {
+  border-style: solid;
+  /*border: 50%;*/
+}
+nav {
+  display: inline-block;
+}
+
+h2 a {
+  display: inline-block;
+  text-decoration: none;
+  /*float: left;*/
+
+  /*clear: both;*/
+  /*text-align: right;*/
+}
+a[href="#login"] {
+  position: absolute;
+  left: 72%;
+  top: 28px;
+  text-decoration: none;
+  /*right: 50px;*/
+  /*display: inline-block;*/
+  /*margin-right: 10px;*/
+}
+
+a[href="#signup"] {
+  /*display: inline-block;*/
+  position: absolute;
+  left: 78%;
+  top: 28px;
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  bottom: -30px;
+}
