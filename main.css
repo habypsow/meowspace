@@ -1,10 +1,17 @@
+html {
+  border: 3px solid black;
+  margin: 2px;
+}
+
+
 nav li {
   list-style: none;
   text-align: right;
   /*position: relative;*/
 }
 header {
-  border-style: solid;
+  border-bottom: 2px solid black;
+  /*background-color: chartreuse;*/
   /*border: 50%;*/
 }
 nav {
@@ -24,6 +31,7 @@ a[href="#login"] {
   left: 72%;
   top: 28px;
   text-decoration: none;
+  font-weight: bold;
   /*right: 50px;*/
   /*display: inline-block;*/
   /*margin-right: 10px;*/
@@ -35,6 +43,7 @@ a[href="#signup"] {
   left: 78%;
   top: 28px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 h1 {
