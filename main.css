@@ -50,3 +50,9 @@ h1 {
   position: relative;
   bottom: -30px;
 }
+
+.main-meowspace img {
+  max-height: 100%;
+  width: 100%;
+  margin: 5px 5px 5px 0px; 
+}
