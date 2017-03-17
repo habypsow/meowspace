@@ -1,22 +1,18 @@
+
 html {
   border: 3px solid black;
   margin: 2px;
 }
 
-nav li {
+.top-nav li {
   list-style: none;
-  /*text-align: right;*/
-  /*position: relative;*/
 }
 header {
   border-bottom: 2px solid black;
   background-color: pink;
-  /*border: 50%;*/
   display: inline-block;
   width: 100%;
-  padding: 30px;
 }
-
 
 .main-logo {
   float: left;
@@ -29,22 +25,19 @@ h2 a {
   display: inline-block;
   text-decoration: none;
   float: left;
-
-  /*clear: both;*/
-  /*text-align: right;*/
+  font-family: 'Tangerine';
+  font-size: 6vw;
 }
 
 nav ul {
   float: right;
   width: 35%;
-  margin: 0px;
   padding: 10px;
 }
 
 nav ul li {
   float: left;
   padding-left: 10px;
-
 }
 
 main {
@@ -55,39 +48,33 @@ main {
   clear: both;
 }
 
+a[href="#login"] {
+  font-weight: bold;
+  font-size: 4vw;
+  text-decoration: none;
+  font-family: 'Tangerine';
+}
 
+a[href="#signup"] {
+  font-size: 4vw;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Tangerine';
+}
 
-
-/*a[href="#login"] {
-position: absolute;
-left: 72%;
-top: 28px;
-text-decoration: none;
-font-weight: bold;
-/*right: 50px;*/
-/*display: inline-block;*/
-/*margin-right: 10px;*/
-/*}*/
-
-/*a[href="#signup"] {
-/*display: inline-block;*/
-/*position: absolute;
-left: 78%;
-top: 28px;
-text-decoration: none;
-font-weight: bold;*/
-/*}*/
+a:hover {
+  color: chartreuse;
+}
 
 h1 {
   position: absolute;
-  font-size: 10vw;
-  top: 200px;
-  /*float: left;*/
-  /*max-height: 60%;*/
+  font-size: 14vw;
+  top: 400px;
   width: 100%;
   text-align: center;
-  /*padding-left: 400px;*/
   box-sizing: border-box;
+  font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 .title::nth-word(2) {
@@ -97,8 +84,6 @@ h1 {
 .main-meowspace img {
   max-height: 100%;
   width: 100%;
-  /*margin: 0px 0px 0px 0px;*/
-  ;
 }
 
 section.popular-posts article {
@@ -114,13 +99,11 @@ section.popular-posts article {
   max-height: 300px;
 }
 
-
 .join-the-club {
   border-bottom: solid 3px;
   border-top: solid 3px;
   background-color: green;
 }
-
 
 .join-the-club article {
   float: left;
@@ -134,33 +117,26 @@ section.popular-posts article {
 }
 
 .join-the-club img {
-  /*max-height: 60%;*/
-  /*display: inline-block;*/
   max-width: 40%;
   padding: 20px;
   margin-left: 150px;
-  /*border-right: solid 1px;*/
-  /*border-left: solid 1px;*/
 }
 
 .everybody {
   clear: both;
   position: relative;
-  /*display: inline-block;*/
   padding: 0px;
-  /*width: 100%;*/
-  /*height: 20%;*/
-  /*margin: 0px;*/
-
 }
-.everybody h2 {
 
+.everybody h2 {
   position: absolute;
   top: 0px;
   width: 100%;
   font-size: 10vw;
   box-sizing: border-box;
-  /*bottom: 100px;*/
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 .everybody img {
@@ -168,9 +144,7 @@ section.popular-posts article {
   width: 100%;
   height: 400px;
   top: 0px;
-  /*margin: 5px 5px 5px 0px;*/
 }
-
 
 footer {
   width: 100%;
@@ -178,9 +152,7 @@ footer {
 }
 
 #disclaimer {
-  /*float: left;*/
   width: 50%;
-  /*padding-left: 20px;*/
 }
 
 footer h4 {
@@ -191,13 +163,29 @@ footer h4 {
 footer p {
   display: inline;
 }
+
 .disclaimer-text {
   width: 60%;
   padding-top: 5%;
   text-align: justify;
   padding-left: 10px;
+  font-family: 'Tangerine';
+  font-size: 2vw;
 }
-footer nav {
-  /*float: right;*/
-  /*vertical-align: text-top;*/
+
+a[href="#about"] {
+  bottom: 200px;
+  float: left;
+  font-weight: bold;
+  font-size: 4vw;
+  text-decoration: none;
+  font-family: 'Tangerine';
+}
+
+a[href="#contact"] {
+  font-weight: bold;
+  font-size: 4vw;
+  text-decoration: none;
+  font-family: 'Tangerine';
+  /*float: left;*/
 }
